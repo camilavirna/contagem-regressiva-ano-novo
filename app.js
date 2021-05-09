@@ -30,5 +30,5 @@ const updateCountdown = () => { // neste bloco trata-se da diferença do tempo d
 setTimeout(() => {
     spinnerLoading.remove() //função para remover o spinner depois de 1 segundo após o reloading (utilizei o id do index.html, para referencia do objeto)
     countdownContainer.style.display = 'flex' // na linha 32 é uma funcionalidade que faz reaparecer a contagem, usando a referencia de div
-}, 1000) // vai invocação uma função no tempo que for especificado para ele.
+}, 1000) // vai invocar uma função no tempo que for especificado para ele.
 setInterval(updateCountdown, 1000) // método que invoca uma função repetidamente e a repetição da invocação dessa função vai ocorrer no intervalo de tempo que for especificado.
